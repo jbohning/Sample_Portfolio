@@ -1,11 +1,11 @@
 # Sample_Portfolio Key: 
-This repo contains a small selection of projects to demonstrate my abilities in R. This document will be a key to the different files/projects contained in this repo.
+This repo contains a small selection of projects to demonstrate my abilities in R. This document summarizes the different files/projects contained in this repo.
 
 ## Regression Analysis
-This project uses the "mtcars" data in R to do regression analysis to determine two things: 1) Is an automatic or manual transmission better for MPG?; and 2) Quantify the MPG difference between automatic and manual transmissions. This project is written in an R Markdown file and saved the knitted docs as ".pdf" and ".html" files.
+This project uses the "mtcars" data in R to do regression analysis to determine two things: 1) Is an automatic or manual transmission better for MPG?; and 2) Quantify the MPG difference between automatic and manual transmissions. This project is written in an R Markdown file and saved the knitted docs as .pdf and .html files.
 
 ## Machine Learning Project
-The goal of this project is to predict what particular bicep curl a person is making based on sensor data. The data can be found __[here](http://groupware.les.inf.puc-rio.br/har)__
+The goal of this project is to create a machine learning algorithm to predict what particular bicep curl a person is making based on sensor data. The data can be found __[here](http://groupware.les.inf.puc-rio.br/har)__. In this file are the .Rmd, .html, .md, and .pdf files as well as the cached data and the testing and training data files (found in the previously mentioned link).
 
 ## Webscrapping_Booking
 This file is contains the code and a small sample of data collected for my Booking.com scrapes. The goal of this project is to gain an understanding of how the website is growing based on the number of hotels available on the website. The code works by going to three webpages on the website: 
