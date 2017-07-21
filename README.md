@@ -1,13 +1,13 @@
 # Sample_Portfolio Key: 
 This repo contains a small selection of projects to demonstrate my abilities in R. This document will be a key to the different files/projects contained in this repo.
 
-#Regression Analysis
+## Regression Analysis
 This project uses the "mtcars" data in R to do regression analysis to determine two things: 1) Is an automatic or manual transmission better for MPG?; and 2) Quantify the MPG difference between automatic and manual transmissions. This project is written in an R Markdown file and saved the knitted docs as ".pdf" and ".html" files.
 
-#Machine Learning Project
+## Machine Learning Project
 The goal of this project is to predict what particular bicep curl a person is making based on sensor data. The data can be found __[here](http://groupware.les.inf.puc-rio.br/har)__
 
-#Webscrapping_Booking
+## Webscrapping_Booking
 This file is contains the code and a small sample of data collected for my Booking.com scrapes. The goal of this project is to gain an understanding of how the website is growing based on the number of hotels available on the website. The code works by going to three webpages on the website: 
 
 1) the main page to gather overall stats
@@ -16,7 +16,7 @@ This file is contains the code and a small sample of data collected for my Booki
 
 The code grabs the needed data from the three web pages, cleans it up, saves the data daily (as its own, unique file), combines all of the previous days' data into one data frame, and plots the data for analysis in the file "Summary Stats.pdf"
 
-#Webscrapping_Priceline
+## Webscrapping_Priceline
 This file contains the code and a small sample of data collected for my Priceline.com scrapes. The goal of this project is to gain an understanding of how the website is growing based on the number of hotels available on the website. However, there is no webpage on this site that lists the total number of hotels available, so the code grabs the results data from eight locations on various dates. 
 
 There are two relevant .R files here:
