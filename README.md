@@ -1,5 +1,5 @@
-# Sample_Portfolio Key: 
-This repo contains a small selection of projects to demonstrate my abilities in R. This document summarizes the different files/projects contained in this repo.
+# Portfolio Key: 
+This repository contains a small selection of projects to demonstrate my abilities in R. This document summarizes the different files/projects contained in this repo.
 
 ## Regression Analysis
 This project uses the "mtcars" data in R to do regression analysis to determine two things: 1) Is an automatic or manual transmission better for MPG?; and 2) Quantify the MPG difference between automatic and manual transmissions. This project is written in an R Markdown file and saved the knitted docs as .pdf and .html files.
