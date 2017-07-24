@@ -272,7 +272,8 @@ grid.arrange(p1,p2,ncol=2, top=&quot;Confusion Matrix: How Correct Was The Predi
 </div>
 <div id="predictions" class="section level2">
 <h2>Predictions</h2>
-<p>The model can now be used to predict. Based on the model accuracy, I would expect that about 18.5 out of 20 of the predictions to be accurate.</p>
+<p>The model can now be used to predict what position twenty users’ arms moved to make their bicep curls.</p>
+<p>Based on the model accuracy, I would expect that about 18.5 out of 20 of the predictions to be accurate.</p>
 <p>The table below takes in the dataset given for the testing scenario and predicts which of the five classes of bicep curl the user was using.</p>
 <pre class="r"><code>predictions&lt;-predict(modelFit,testing_raw)
 data.frame(testing_raw$user_name,testing_raw$problem_id,predictions)</code></pre>

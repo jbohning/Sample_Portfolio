@@ -1,9 +1,9 @@
 ---
 title: 'Machine Learning Project: Using Sensor Data to Predict Body Position'
 output:
-  pdf_document: default
   html_document:
     keep_md: yes
+  pdf_document: default
 ---
 
 ## Getting and Cleaning the Data
@@ -157,7 +157,9 @@ grid.arrange(p1,p2,ncol=2, top="Confusion Matrix: How Correct Was The Prediction
 ```
 
 ##Predictions
-The model can now be used to predict. Based on the model accuracy, I would expect that about `r round(confusionMatrix(testing_data$classe,pred)$overall['Accuracy']*20,1)` out of 20 of the predictions to be accurate.
+The model can now be used to predict what position twenty users' arms moved to make their bicep curls. 
+
+Based on the model accuracy, I would expect that about `r round(confusionMatrix(testing_data$classe,pred)$overall['Accuracy']*20,1)` out of 20 of the predictions to be accurate.
 
 The table below takes in the dataset given for the testing scenario and predicts which of the five classes of bicep curl the user was using. 
 
